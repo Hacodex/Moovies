@@ -1,0 +1,80 @@
+Average Net Worth of Actors by Gender (USD):
+female: 191,593,023.26
+male: 339,622,641.51
+
+Average IMDb Ratings by Genre:
+Drama: 8.49
+Crime: 8.5
+Action: 8.61
+Biography: 8.52
+History: 8.6
+Adventure: 8.43
+Western: 8.43
+Romance: 8.39
+Sci-Fi: 8.43
+Fantasy: 8.4
+Animation: 8.47
+Family: 8.43
+War: 8.36
+Comedy: 8.31
+Mystery: 8.33
+Thriller: 8.34
+Music: 8.4
+Horror: 8.4
+Film-Noir: 8.13
+Short: 8.3
+Musical: 8.3
+Sport: 8.1
+
+Actor Average IMDb Ratings of Movies and Net Worth:
+al pacino: average IMDb rating 9.1, net worth: 120,000,000.00
+anne hathaway: average IMDb rating 8.7, net worth: 60,000,000.00
+brad pitt: average IMDb rating 8.7, net worth: 300,000,000.00
+chris hemsworth: average IMDb rating 8.4, net worth: 130,000,000.00
+christian bale: average IMDb rating 8.75, net worth: 120,000,000.00
+clint eastwood: average IMDb rating 8.5, net worth: 375,000,000.00
+grace kelly: average IMDb rating 8.5, net worth: 40,000,000.00
+harrison ford: average IMDb rating 8.4, net worth: 300,000,000.00
+hugh jackman: average IMDb rating 8.5, net worth: 180,000,000.00
+jessica chastain: average IMDb rating 8.7, net worth: 40,000,000.00
+joaquin phoenix: average IMDb rating 8.5, net worth: 50,000,000.00
+john travolta: average IMDb rating 8.9, net worth: 250,000,000.00
+julianne moore: average IMDb rating 8.1, net worth: 50,000,000.00
+kate winslet: average IMDb rating 8.3, net worth: 65,000,000.00
+keanu reeves: average IMDb rating 8.7, net worth: 360,000,000.00
+kevin spacey: average IMDb rating 8.55, net worth: 100,000,000.00
+leonardo dicaprio: average IMDb rating 8.65, net worth: 260,000,000.00
+liam neeson: average IMDb rating 9.0, net worth: 145,000,000.00
+matt damon: average IMDb rating 8.55, net worth: 170,000,000.00
+matthew mcconaughey: average IMDb rating 8.7, net worth: 140,000,000.00
+morgan freeman: average IMDb rating 8.95, net worth: 250,000,000.00
+natalie portman: average IMDb rating 8.5, net worth: 90,000,000.00
+natalie wood: average IMDb rating 7.6, net worth: 2,500,000.00
+robert de niro: average IMDb rating 8.5, net worth: 500,000,000.00
+russell crowe: average IMDb rating 8.5, net worth: 100,000,000.00
+scarlett johansson: average IMDb rating 8.5, net worth: 165,000,000.00
+sigourney weaver: average IMDb rating 8.5, net worth: 60,000,000.00
+steve mcqueen: average IMDb rating 8.2, net worth: 30,000,000.00
+sylvester stallone: average IMDb rating 8.1, net worth: 400,000,000.00
+tom hanks: average IMDb rating 8.57, net worth: 400,000,000.00
+tommy lee jones: average IMDb rating 8.2, net worth: 90,000,000.00
+uma thurman: average IMDb rating 8.9, net worth: 45,000,000.00
+
+Actors by Genre and Gender:
+Drama: Male - 31, Female - 7
+Crime: Male - 15, Female - 3
+Action: Male - 9, Female - 1
+Biography: Male - 3, Female - 0
+History: Male - 2, Female - 0
+Adventure: Male - 10, Female - 2
+Western: Male - 2, Female - 0
+Romance: Male - 1, Female - 1
+Sci-Fi: Male - 7, Female - 5
+Fantasy: Male - 2, Female - 0
+War: Male - 2, Female - 0
+Mystery: Male - 6, Female - 2
+Thriller: Male - 3, Female - 1
+Horror: Male - 0, Female - 1
+Sport: Male - 2, Female - 0
+Animation: Male - 1, Female - 0
+Comedy: Male - 1, Female - 1
