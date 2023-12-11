@@ -18,7 +18,7 @@ def fetch_celebrity_data(celebrity_name):
 conn = sqlite3.connect('movies_actors.db')
 c = conn.cursor()
 
-c.execute('''CREATE TABLE IF NOT EXISTS movies_basic (id INTEGER PRIMARY KEY, name TEXT UNIQUE, genre TEXT)''')
+c.execute('''CREATE TABLE IF NOT EXISTS movies_basic (id INTEGER PRIMARY KEY, name TEXT UNIQUE, genre TEXT, actors TEXT)''')
 c.execute('''CREATE TABLE IF NOT EXISTS movies_ratings (movie_id INTEGER, imdb_rating REAL, rotten_tomatoes_rating TEXT, metacritic_rating TEXT, FOREIGN KEY(movie_id) REFERENCES movies_basic(id))''')
 c.execute('''CREATE TABLE IF NOT EXISTS actors (name TEXT PRIMARY KEY, gender TEXT, net_worth INTEGER)''')
 
@@ -27,7 +27,7 @@ def insert_movie_data(movie_info):
     movie_basic_id = c.fetchone()
 
     if movie_basic_id is None:
-        c.execute('INSERT INTO movies_basic (name, genre) VALUES (?, ?)', (movie_info['Title'], movie_info['Genre']))
+        c.execute('INSERT INTO movies_basic (name, genre, actors) VALUES (?, ?, ?)', (movie_info['Title'], movie_info['Genre'], movie_info['Actors']))
         movie_basic_id = c.lastrowid
     else:
         movie_basic_id = movie_basic_id[0]
