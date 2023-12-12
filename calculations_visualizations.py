@@ -137,7 +137,7 @@ def calculate_actor_average_imdb_net_worth(db, output_file):
     with open(output_file, 'a') as f:
         f.write("\nActor Average IMDb Ratings of Movies and Net Worth:\n")
         for actor, data in actor_dictionary.items():
-            f.write(f"{actor}: average IMDb rating {data[0]}, net worth: {data[1]:,.2f}\n")
+            f.write(f"{actor}: average IMDb rating: {data[0]}, net worth: {data[1]:,.2f}\n")
 
 
 def calculate_actors_by_genre(db, output_file):
@@ -176,7 +176,7 @@ def calculate_actors_by_genre(db, output_file):
     plt.xlabel('Genre')
     plt.ylabel('Number of Actors')
     plt.title('Number of Male and Female Actors by Genre')
-    plt.xticks([i + bar_width/2 for i in index], genres)
+    plt.xticks([i + bar_width/2 for i in index], genres, rotation=45, ha='right')
     plt.legend()
     plt.tight_layout()
     plt.show()
@@ -184,7 +184,7 @@ def calculate_actors_by_genre(db, output_file):
     with open(output_file, 'a') as f:
         f.write("\nActors by Genre and Gender:\n")
         for genre, counts in genre_actor_counts.items():
-            f.write(f"{genre}: Male - {counts['male']}, Female - {counts['female']}\n")
+            f.write(f"{genre}: Male: {counts['male']}, Female: {counts['female']}\n")
 
 
 def main():
